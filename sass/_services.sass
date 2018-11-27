@@ -1,0 +1,47 @@
+$color-sv: #5c3d03
+.services
+    background-image: url('images/bg_2.png')
+    font-family: $font-main1
+    padding-bottom: 6%
+    .services-title
+        margin-top: 15%
+        font-weight: 300
+        margin-bottom: 4%
+    .services-quote
+        color: $color-sv
+    .services-item
+        padding-top: 6%
+        transition: 1s
+        .services-icon-wrapper
+            position: relative
+            width: 100px
+            height: 100px
+            margin: 0 auto
+            .services-icon
+                font-size: 60px
+                border: 1px solid $color-sv
+                width: 100px
+                height: 100px
+                display: block
+                position: absolute
+                z-index: 5
+                padding-top: 15px
+            .services--dark
+                width: 100px
+                height: 100px
+                position: absolute
+                z-index: 0
+                transition: 1s
+        h3 
+            font-size: 18px
+            padding-bottom: 6%
+            margin-top: 50px
+        p 
+            color: $color-sv
+            font-size: 15px
+    .services-item:hover .services--dark
+        background-color: orange
+        transform: rotate(45deg)
+    .services-item:hover .services-icon
+        border: none
+        color: white

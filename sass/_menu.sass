@@ -1,0 +1,38 @@
+.menu
+    width: 100%
+    color: grey
+    background-color: #121618
+    height: 100px
+    .container
+        padding: 0
+        .menu-brand
+            padding-top: 15px
+            box-sizing: border-box
+            .menu-icon::before
+                @extend %max-wh
+                +font-icon(24px,$color-orange)
+                width: 24px
+                height: 24px
+            span 
+                color: white
+                font-family: $font-pizza
+                font-weight: 400
+                font-size: 22px
+                line-height: 0px
+            br 
+                margin: 0
+                padding: 0
+            small
+                font-weight: 300
+                +font-icon(11px,$color-orange)
+                letter-spacing: 4px
+                margin-left: 22px
+                position: relative
+                bottom: 16px
+        .menu-collapse
+            .menu-bar
+                a  
+                    color: grey
+                    margin-left: 25px
+                .active a
+                    color: $color-orange

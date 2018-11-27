@@ -1,0 +1,84 @@
+.slider
+    width: 100%
+    height: 750px
+    background-image: url('images/carousel-banner-1.jpg')
+    background-size: cover
+    color: white
+    transition: 1s
+    overflow: hidden
+    position: relative
+    .slider-dad
+        @extend %max-wh
+        .container
+            @extend %max-wh
+            position: absolute
+            left: 50%
+            top: 50%
+            z-index: 3
+            transform: translateX(-50%) translateY(-50%) 
+            .row.slider-item
+                width: 100%
+                height: 100%
+                .slider-cap
+                    padding: 0 10px
+                    .slider-title
+                        font-family: $font-welcome
+                        color: $color-orange
+                    .slider-title-2
+                        font-family: $font-pizza
+                        font-size: 50px
+                        @media only screen and (min-width: $mobile-width )and (max-width: $tablet-width - 1px)
+                            font-size: 40px
+                    .slider-quote
+                        font-size: 18px
+                        font-family: $font-main1
+                    .slider-btn_order
+                        background-color: $color-orange !important
+                        padding: 15px 22px
+                        font-size: 13px
+                        font-family: $font-main1
+                        border-radius: 0
+                    .slider-btn_order:hover
+                        background-color: transparent !important
+                        color: $color-orange
+                    .slider-btn_view
+                        padding: 15px 22px
+                        font-size: 13px
+                        font-family: $font-main1
+                        border-radius: 0
+                    .slider-btn_view:hover
+                        background-color: $color-orange
+                        border-color: $color-orange
+                .slider-image
+                    img
+                        max-width: 100%
+                        height: auto
+
+        .slider--dark__bg
+            @extend %max-wh
+            background-color: black
+            opacity: 0.5
+            position: absolute
+            top: 0
+            left: 0
+            z-index: 2
+        .slider-bg
+            @extend %max-wh
+            background-image: url('images/carousel-banner-2.jpg')
+    .slider-btns
+        margin-top: 50px
+        bottom: 30px
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        z-index: 10
+        .slider-btn
+            width: 15px
+            height: 15px
+            background-color: grey
+            margin: 5px
+            border-radius: 50%
+            float: left
+            cursor: pointer
+        .slider-btn.active
+            background-color: white

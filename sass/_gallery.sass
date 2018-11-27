@@ -1,0 +1,35 @@
+.gallery
+    background-image: url('images/bg_1.jpg')
+    background-size: cover  
+    .gallery-item
+        height: 300px
+        display: flex
+        align-items: center
+        justify-content: center
+        background-attachment: center 
+        background-size: cover
+    .gallery-image_1
+        background-image: url('images/gl-1.jpg')
+    .gallery-image_2
+        background-image: url('images/gl-2.jpg')
+    .gallery-image_3
+        background-image: url('images/gl-3.jpg')
+    .gallery-image_4
+        background-image: url('images/gl-4.jpg')
+    .gallery-search
+        font-size: 18px
+        transition: 1s
+        position: absolute
+        z-index: 10
+        display: none
+    .gallery--dark
+        width: 60px
+        height: 60px
+        background-color: transparent
+        transition: 0.5s
+    .gallery-item:hover .gallery--dark
+        transform: rotate(45deg)
+        background-color: orange
+    .gallery-item:hover .gallery-search
+        color: white
+        display: block

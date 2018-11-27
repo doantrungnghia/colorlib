@@ -1,0 +1,51 @@
+.meals
+    color: white
+    background-image: url('images/bg_1.jpg')
+    background-attachment: fixed
+    padding-top: 100px
+    font-family: $font-main1
+    h3
+        font-size: 30px
+        font-family: $font-pizza
+    p   
+        color: grey
+        font-size: 15px   
+    .meals-item-row
+        @extend %max-wh  
+    .meals-item
+        width: 100%
+        height: auto
+        @media only screen and (max-width: 996px)
+            margin-top: 30px
+        .meals-item_image
+            width: 50%
+            height: 100%          
+            background-size: cover
+            background-position: center
+        .meals-item_image_1
+            background-image: url('images/meals-1.jpg')
+        .meals-item_image_2
+            background-image: url('images/meals-2.jpg')
+        .meals-item_image_3
+            background-image: url('images/meals-3.jpg')
+        .meals-item_image_4
+            background-image: url('images/meals-4.jpg')
+        .meals-item_image_5
+            background-image: url('images/meals-5.jpg')
+        .meals-item_image_6
+            background-image: url('images/meals-5.jpg')
+        .meals-item_text
+            background-color: rgba(0, 0, 0, 0.2)
+            padding: 25px 25px  
+            width: 50%
+            h4
+                font-size: 20px
+            span 
+                color: $color-orange
+            div
+                border-radius: 0px
+                margin-left: 5px
+                font-size: 15px
+            div:hover
+                background-color: orange
+                border-color: orange

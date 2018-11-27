@@ -1,0 +1,74 @@
+.pricing
+    color: white
+    background-image: url('images/bg_1.jpg')
+    background-attachment: fixed
+    padding-top: 100px
+    font-family: $font-main1
+    padding-bottom: 200PX
+    .flip
+        width: 80px
+        height: 1px
+        background-color: orange
+        display: inline-block
+    .square
+        width: 9px
+        height: 9px
+        background-color: orange
+        display: inline-block
+        transform: rotate(45deg)
+        position: relative 
+        margin: 0 3px  
+        top: 3px
+    .square--small
+        width: 5px
+        height: 5px
+        top: 1px
+    h4 
+        font-size: 30px
+    p
+        color: grey
+    .pricing-item
+        width: 100%
+        @media only screen and (min-width: $mobile-width )and (max-width: $tablet-width - 1px)
+        .pricing-item_image
+            width: 60px
+            height: 60px   
+            background-size: cover
+            background-position: center
+            border-radius: 50% 50%
+            float: left
+        .pricing-item_image_1
+            background-image: url('images/meals-1.jpg')
+        .pricing-item_image_2
+            background-image: url('images/meals-2.jpg')
+        .pricing-item_image_3
+            background-image: url('images/meals-3.jpg')
+        .pricing-item_image_4
+            background-image: url('images/meals-4.jpg')
+        .pricing-item_image_5
+            background-image: url('images/meals-5.jpg')
+        .pricing-item_image_6
+            background-image: url('images/meals-6.jpg')
+        .pricing-item_image_7
+            background-image: url('images/meals-7.jpg')
+        .pricing-item_image_8
+            background-image: url('images/meals-8.jpg')
+        .pricing-item_text
+            float: left
+            width: calc(100% - 180px)
+            padding-left: 10px
+            .prcing-title
+                color: #e2e0e0
+            .pricing-title:after
+                content: ''
+                display: block
+                height: 1px
+                border-bottom: 1px dashed orange
+            p
+                
+        .pricing-price
+            color: orange
+            position: absolute
+            right: 20px
+            top: 10px
+            ////GALLERY///

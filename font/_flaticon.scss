@@ -1,0 +1,77 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 08/11/2018 04:14
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-pizza:before { content: "\f100"; }
+.flaticon-pizza-1:before { content: "\f101"; }
+.flaticon-gps-fixed-indicator:before { content: "\f102"; }
+.flaticon-phone:before { content: "\f103"; }
+.flaticon-clock:before { content: "\f104"; }
+.flaticon-food:before { content: "\f105"; }
+.flaticon-bike:before { content: "\f106"; }
+.flaticon-medal:before { content: "\f107"; }
+.flaticon-fun:before { content: "\f108"; }
+.flaticon-chef:before { content: "\f109"; }
+.flaticon-pin:before { content: "\f10a"; }
+.flaticon-mail:before { content: "\f10b"; }
+.flaticon-calendar-with-spring-binder-and-date-blocks:before { content: "\f10c"; }
+.flaticon-man-user:before { content: "\f10d"; }
+.flaticon-chat:before { content: "\f10e"; }
+.flaticon-twitter-logo-button:before { content: "\f10f"; }
+.flaticon-facebook-logo-button:before { content: "\f110"; }
+.flaticon-instagram:before { content: "\f111"; }
+.flaticon-favorite-heart-button:before { content: "\f112"; }
+    
+    $font-Flaticon-pizza: "\f100";
+    $font-Flaticon-pizza-1: "\f101";
+    $font-Flaticon-gps-fixed-indicator: "\f102";
+    $font-Flaticon-phone: "\f103";
+    $font-Flaticon-clock: "\f104";
+    $font-Flaticon-food: "\f105";
+    $font-Flaticon-bike: "\f106";
+    $font-Flaticon-medal: "\f107";
+    $font-Flaticon-fun: "\f108";
+    $font-Flaticon-chef: "\f109";
+    $font-Flaticon-pin: "\f10a";
+    $font-Flaticon-mail: "\f10b";
+    $font-Flaticon-calendar-with-spring-binder-and-date-blocks: "\f10c";
+    $font-Flaticon-man-user: "\f10d";
+    $font-Flaticon-chat: "\f10e";
+    $font-Flaticon-twitter-logo-button: "\f10f";
+    $font-Flaticon-facebook-logo-button: "\f110";
+    $font-Flaticon-instagram: "\f111";
+    $font-Flaticon-favorite-heart-button: "\f112";

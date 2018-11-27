@@ -1,0 +1,32 @@
+.slider-effect
+    display: block
+    animation-name: slider
+    animation-duration: 1s
+@keyframes slider
+    0%
+        transform: scale(0.9)
+    100%
+        transform: scale(1)     
+.main-effect
+    animation-name: main
+    animation-duration: 1s
+@keyframes main
+    0%
+        transform: translateY(50px)
+        opacity: 0
+    100%
+        transform: translateY(0)  
+        opacity: 1 
+.main-effect2
+    animation-name: main2
+    animation-duration: 1s
+@keyframes main2
+    0%
+        transform: translateX(-150px)
+        opacity: 0
+    100%
+        transform: translateX(0)  
+        opacity: 1 
+.--display-none 
+    display: none
+    transition: 1s

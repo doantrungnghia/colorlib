@@ -1,0 +1,38 @@
+section.intro   
+    width: 100%
+    font-family: $font-main1
+    font-weight: 300
+    .info-row
+        @extend %max-wh
+    .info
+        background-color: black
+        min-height: 150px
+        .info-item
+            @extend %max-wh
+            padding-top: 20px
+            .info-icon
+                color: $color-orange
+                width: 20px    
+                float: left
+            .info-text
+                padding-left: 50px
+                h4
+                    font-size: 18px
+                    color: white
+                    padding-top: 5px
+                p   
+                    color: grey
+                    font-size: 15px
+    .social
+        background-color: $color-orange
+        min-height: 100px
+        .row
+            @extend %max-wh
+            .social-icon
+                float: left
+                color: white
+                padding-left: 10px
+            .social-icon:before
+                font-size: 25px
+            .social-icon:first-child
+                padding-left: 30px

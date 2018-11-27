@@ -1,0 +1,38 @@
+.appointment
+    color: white
+    background-color: black
+    font-family: $font-main1
+    .appointment-map    
+        background-color: grey
+        height: 500px
+        iframe
+            @extend %max-wh
+    .appointment-contact
+        background-color: black
+        padding: 50px 70px !important
+        box-sizing: border-box
+        height: 500px
+        @media only screen and (min-width: $mobile-width )and (max-width: $tablet-width - 1px)
+            padding: 40px 20px !important
+        .appointment-form
+            input
+                margin-top: 30px
+                width: 90%
+                background-color: black
+                border: none
+                color: white
+                border-bottom: 1px solid grey
+                padding-bottom: 10px
+            .comment-input
+                @extend input
+            .appointment-btn
+                background-color: $color-orange
+                border-radius: 0
+                margin-top: 15px
+                padding: 15px 25px
+                color: black
+                transition: 1s
+            .appointment-btn:hover
+                color: $color-orange
+                background-color: transparent
+                border: 1px solid $color-orange
